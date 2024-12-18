@@ -6,9 +6,10 @@ Seoul National University
 
 ## Introduction    
 fdfdgdffdsfds   
-<p align="center">
-<img src="![AweVR_video_abstract--ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/430b222d-7d5c-4273-89a0-ef7c1cba4676)">
-</p>
+
+
+<p align="center"><img src="![AweVR_video_abstract](https://github.com/user-attachments/assets/c122bc4e-7af7-497e-ab87-9682a529ebab)"></p>
+
 
 ## Guided Tour for Scripts   
 In general, we utilized three programming languages in this study for distinct purposes:
