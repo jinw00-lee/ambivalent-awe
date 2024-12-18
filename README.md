@@ -1,7 +1,7 @@
 # Awe is characterized as an ambivalent experience in the human behavior and cortex  
 Jinwoo Lee, Danny Dongyeop Han, Seung-Yeop Oh, & Jiook Cha.   
 Seoul National University   
-- First Author: Jinwoo Lee (adem1997@snu.ac.kr | [jinwoo-lee.com](https:jinwoo-lee.com))   
+- First Author: Jinwoo Lee (adem1997@snu.ac.kr | [jinwoo-lee.com](jinwoo-lee.com))   
 - Corresponding Author: Jiook Cha (connectome@snu.ac.kr | [www.connectomelab.com](www.connectomelab.com))    
 
 ## Guided Tour for Scripts   
