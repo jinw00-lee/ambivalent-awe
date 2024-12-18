@@ -8,7 +8,7 @@ Seoul National University
 fdfdgdffdsfds   
 
 
-<p align="center"><img src="![AweVR_video_abstract](https://github.com/user-attachments/assets/c122bc4e-7af7-497e-ab87-9682a529ebab)"></p>
+![AweVR_video_abstract](https://github.com/user-attachments/assets/c122bc4e-7af7-497e-ab87-9682a529ebab)
 
 
 ## Guided Tour for Scripts   
