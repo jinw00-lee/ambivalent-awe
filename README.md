@@ -32,4 +32,22 @@ In the following section, we will explain how each code was utilized in differen
 - **(09) `hmm_implement.py`**: This code uses HMM to evaluate how well the latent state transitions of each frequency band feature align with the time-based transitions of the actual keypress valence sequence. A transition is considered a "match" if it occurs within 3 seconds of the actual keypress transition. A permutation test is conducted 1,000 times to calculate the actual match rate and the match rates for each permutation test.
 
 ### Part III. Predictive Modeling and Statistical Analysis ###
-- **(10) `behavior_analysis.R`**: 
+- **(10) `behavior_analysis.R`**: This code performs the following tasks:
+       
+   - a) investigates the psychometric validity of self-report data.     
+   - b) tests statistical differences in affective features across clip conditions. &rarr; `Fig 2`
+   - c) conducts univariate and multivariate predictive modeling to explain awe ratings based on behavioral variables. &rarr; `Fig 3`     
+      - cf.) `Fig 1` *was created manually.*     
+
+- **(11) `latent_space_analysis.R`**: This code performs the following tasks:
+
+   - a) conducts dimensionality selection for CEBRA- and PCA-driven spaces with decoding performances. &rarr; `Fig 4a` & `SFig 3`
+   - b) examines statistical differences in decoding performances across tasks and analytic tools. &rarr; `Fig 4b`  & `SFig 4`
+   - c) displays silhoette score and its statistical significance for each valence category. &rarr; `Fig 5a`
+        - cf.) `Fig 5b` *was created manually.*    
+   - d) predicts self-reported awe scores with cortical distinctiveness value. &rarr; `Fig 5c-e`
+ 
+- **(12) `dynamask_weight_analysis.R`**: This code performs the following tasks:
+
+   - a) calculates average
+   - b) examines statistical differences in decoding performanc
