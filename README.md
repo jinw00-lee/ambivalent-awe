@@ -3,6 +3,7 @@
 Seoul National University   
 - First Author: Jinwoo Lee (adem1997@snu.ac.kr | [jinwoo-lee.com](https://jinwoo-lee.com))   
 - Corresponding Author: Jiook Cha (connectome@snu.ac.kr | [www.connectomelab.com](https://www.connectomelab.com))
+- Preprint: [https://doi.org/10.1101/2024.08.18.608520](https://doi.org/10.1101/2024.08.18.608520)
 
 ## Abstract
 Awe is a complex emotion encompassing both positive and negative feelings, but its ambivalent affect remains underexplored. To address whether and how awe's ambivalence is represented both behaviorally and neurologically, we conducted a study using virtual reality and electroencephalography (*N* = 43). Behaviorally, the subjective intensity of awe was best predicted by the duration and intensity of ambivalent feelings, not by single valence-related metrics. In the electrophysiological analysis, we identified latent neural spaces for each participant that shared valence representations across individuals and stimuli, using a deep representational learning. Within these spaces, ambivalent feelings were represented as spatially distinct from positive and negative ones. Notably, their degree of separation specifically predicted awe ratings. Lastly, frontal delta band power mainly differentiated valence types. Our findings underline ambivalence of awe, which integrates competing affects. This work provides a nuanced framework for understanding human emotions with implications for affective neuroscience and relevant fields such as mental wellness.
@@ -66,3 +67,15 @@ In the following section, we will explain how each code was utilized in differen
 ### Supplementary: Video-Sensory Features Analysis ###
 - **(14) `sensory_feature_extraction.py`**: This code extracts and calculates the brightness, color hue, contrast of the video, and the loudness of the audio every 0.5 seconds from a 2D video reconstructed from the frontal perspective of a 3D VR video.
 - **(15) `sensory_feature_analysis.R`**: This code visualizes the temporal patterns of four sensory features for each clip and tests whether each feature is significantly correlated with an individual's valence sequence at each time point. &rarr; `SFig 1`
+
+## Citation
+```
+@article{yi2024awe,
+  title={Awe is characterized as an ambivalent experience in the human behavior and cortex: integrated virtual reality-electroencephalogram study},
+  author={Yi, Jinwoo and Han, Danny Dongyeop and Oh, Seung-Yeop and Cha, Jiook},
+  journal={bioRxiv},
+  pages={2024--08},
+  year={2024},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```
