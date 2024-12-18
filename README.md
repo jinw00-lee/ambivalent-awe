@@ -4,9 +4,8 @@ Seoul National University
 - First Author: Jinwoo Lee (adem1997@snu.ac.kr | [jinwoo-lee.com](https://jinwoo-lee.com))   
 - Corresponding Author: Jiook Cha (connectome@snu.ac.kr | [www.connectomelab.com](https://www.connectomelab.com))
 
-## Introduction    
-fdfdgdffdsfds   
-
+## Abstract
+Awe is a complex emotion encompassing both positive and negative feelings, but its ambivalent affect remains underexplored. To address whether and how awe's ambivalence is represented both behaviorally and neurologically, we conducted a study using virtual reality and electroencephalography (*N* = 43). Behaviorally, the subjective intensity of awe was best predicted by the duration and intensity of ambivalent feelings, not by single valence-related metrics. In the electrophysiological analysis, we identified latent neural spaces for each participant that shared valence representations across individuals and stimuli, using a deep representational learning. Within these spaces, ambivalent feelings were represented as spatially distinct from positive and negative ones. Notably, their degree of separation specifically predicted awe ratings. Lastly, frontal delta band power mainly differentiated valence types. Our findings underline ambivalence of awe, which integrates competing affects. This work provides a nuanced framework for understanding human emotions with implications for affective neuroscience and relevant fields such as mental wellness.
 
 ![AweVR_video_abstract](https://github.com/user-attachments/assets/c122bc4e-7af7-497e-ab87-9682a529ebab)
 
