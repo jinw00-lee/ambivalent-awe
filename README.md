@@ -49,5 +49,9 @@ In the following section, we will explain how each code was utilized in differen
  
 - **(12) `dynamask_weight_analysis.R`**: This code performs the following tasks:
 
-   - a) calculates average
-   - b) examines statistical differences in decoding performanc
+   - a) calculates average perturbation weights of each STFT feature per valence category. &rarr; `Fig 6a-b` & `SFig 6`
+   - b) conducts hierarchical clustering analysis for average perturbation weights of ambivalent states. &rarr; `SFig 5`
+ 
+- **(13) `hmm_match_rate_analysis.R`**: This code performs the following tasks:
+
+   - a) evaluates statistical significance of HMM-based match rate through permutation tests. &rarr; `Fig 6c`
