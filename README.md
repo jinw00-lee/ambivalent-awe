@@ -1,9 +1,10 @@
 # Awe is characterized as an ambivalent experience in the human behavior and cortex  
 Jinwoo Lee, Danny Dongyeop Han, Seung-Yeop Oh, & Jiook Cha.   
 Seoul National University   
-adem1997@snu.ac.kr   
+- First Author: Jinwoo Lee (adem1997@snu.ac.kr | [jinwoo-lee.com](https:jinwoo-lee.com))   
+- Corresponding Author: Jiook Cha (connectome@snu.ac.kr | [www.connectomelab.com](www.connectomelab.com))    
 
-## Code Guide   
+## Guided Tour for Scripts   
 In general, we utilized three programming languages in this study for distinct purposes:
 - **Matlab**: Preprocessing of behavioral and EEG data (except for STFT). 
 - **Python**: CEBRA-based decoding analysis.
@@ -56,6 +57,6 @@ In the following section, we will explain how each code was utilized in differen
 
    - a) evaluates statistical significance of HMM-based match rate through permutation tests. &rarr; `Fig 6c`
  
-### Supplementary. Video-Sensory Features Analysis ###
+### Supplementary: Video-Sensory Features Analysis ###
 - **(14) `sensory_feature_extraction.py`**: This code extracts and calculates the brightness, color hue, contrast of the video, and the loudness of the audio every 0.5 seconds from a 2D video reconstructed from the frontal perspective of a 3D VR video.
 - **(15) `sensory_feature_analysis.R`**: This code visualizes the temporal patterns of four sensory features for each clip and tests whether each feature is significantly correlated with an individual's valence sequence at each time point. &rarr; `SFig 1`
