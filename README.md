@@ -55,3 +55,7 @@ In the following section, we will explain how each code was utilized in differen
 - **(13) `hmm_match_rate_analysis.R`**: This code performs the following tasks:
 
    - a) evaluates statistical significance of HMM-based match rate through permutation tests. &rarr; `Fig 6c`
+ 
+### Supplementary. Video-Sensory Features Analysis ###
+- **(14) `sensory_feature_extraction.py`**: This code extracts and calculates the brightness, color hue, contrast of the video, and the loudness of the audio every 0.5 seconds from a 2D video reconstructed from the frontal perspective of a 3D VR video.
+- **(15) `sensory_feature_analysis.R`**: This code visualizes the temporal patterns of four sensory features for each clip and tests whether each feature is significantly correlated with an individual's valence sequence at each time point. &rarr; `SFig 1`
