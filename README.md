@@ -7,7 +7,7 @@ Seoul National University
 ## Introduction    
 fdfdgdffdsfds   
 <p align="center">
-![AweVR_video_abstract--ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/430b222d-7d5c-4273-89a0-ef7c1cba4676)
+<img src="![AweVR_video_abstract--ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/430b222d-7d5c-4273-89a0-ef7c1cba4676)">
 </p>
 
 ## Guided Tour for Scripts   
