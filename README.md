@@ -1,4 +1,4 @@
-# Awe is characterized as an ambivalent experience in the human behavior and cortex  
+# Awe is characterized as an ambivalent emotion in the human behavior and cortex  
 **Jinwoo Lee**, Danny Dongyeop Han, Seung-Yeop Oh, & **Jiook Cha**.   
 Seoul National University   
 - First Author: Jinwoo Lee (adem1997@snu.ac.kr | [jinwoo-lee.com](https://jinwoo-lee.com))   
