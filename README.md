@@ -20,6 +20,9 @@ In general, we utilized three programming languages in this study for distinct p
 In the following section, we will explain how each code was utilized in different stages of analysis.   
 ### Part I. Data Preprocessing ###
 - **(01) `eeg_preprocessing_1.m`**: This code performs EEG signal epoching and artifact removal using EEGLAB, following [Delorme (2024)](https://www.nature.com/articles/s41598-023-27528-0). It applies ASR cleaning and ICA-based component rejection for this process.
+---
+> **NOTE** *Running this code takes a significant amount of time. Therefore, it is recommended to use job schedulers like SLURM to run the code in parallel, either by video or by participant.*
+---   
 - **(02) `eeg_preprocessing_2.m`**: This code normalizes preprocessed EEG signals during VR watching. It then performs interpolation to temporally align valence keypress event markers with EEG samples. Finally, it generates a CSV file containing normalized values for 19 channels, latency, and valence labels for each timepoint.
 - **(03) `eeg_valence_STFT.py`**: This code applies a STFT to the EEG signals in the CSV dataframe, extracting five frequency band power features for each channel within a 1-second time window. The valence label for each time window is defined as the mode of the valence labels within that window.
 
