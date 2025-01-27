@@ -22,7 +22,7 @@ In the following section, we will explain how each code was utilized in differen
 - **(01) `eeg_preprocessing_1.m`**: This code performs EEG signal epoching and artifact removal using EEGLAB, following [Delorme (2024)](https://www.nature.com/articles/s41598-023-27528-0). It applies ASR cleaning and ICA-based component rejection for this process.
 
    ---
-   > **NOTE** *You should install EEGLAB Plugin first to handle Neuroelectric's `.easy` data format in this script. Please check [here](https://www.neuroelectrics.com/eeglab-plugin)*.
+   > **NOTE** You should install EEGLAB Plugin first to handle Neuroelectrics' `.easy` data format in this script. Please check [here](https://www.neuroelectrics.com/eeglab-plugin).
    ---
    
 - **(02) `eeg_preprocessing_2.m`**: This code normalizes preprocessed EEG signals during VR watching. It then performs interpolation to temporally align valence keypress event markers with EEG samples. Finally, it generates a CSV file containing normalized values for 19 channels, latency, and valence labels for each timepoint.
