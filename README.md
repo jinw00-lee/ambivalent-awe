@@ -14,7 +14,7 @@ Awe is a complex emotion encompassing both positive and negative feelings, but i
 ## Guided Tour for Scripts   
 In general, we utilized three programming languages in this study for distinct purposes:
 - **Matlab**: Preprocessing of behavioral and EEG data (except for STFT). 
-- **Python**: CEBRA-based decoding analysis.
+- **Python**: CEBRA-based decoding analysis, XAI analysis (i.e., Dynamask and HMM).
 - **R**: Predictive modeling, statistical analysis, and visualization.   
    
 In the following section, we will explain how each code was utilized in different stages of analysis.   
