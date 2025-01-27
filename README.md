@@ -21,7 +21,9 @@ In the following section, we will explain how each code was utilized in differen
 ### Part I. Data Preprocessing ###
 - **(01) `eeg_preprocessing_1.m`**: This code performs EEG signal epoching and artifact removal using EEGLAB, following [Delorme (2024)](https://www.nature.com/articles/s41598-023-27528-0). It applies ASR cleaning and ICA-based component rejection for this process.
 
+   ---
    > **NOTE** You should install EEGLAB Plugin first to handle Neuroelectrics' `.easy` data format in this script. Please check [here](https://www.neuroelectrics.com/eeglab-plugin).
+   ---
    
 - **(02) `eeg_preprocessing_2.m`**: This code normalizes preprocessed EEG signals during VR watching. It then performs interpolation to temporally align valence keypress event markers with EEG samples. Finally, it generates a CSV file containing normalized values for 19 channels, latency, and valence labels for each timepoint.
 - **(03) `eeg_valence_STFT.py`**: This code applies a STFT to the EEG signals in the CSV dataframe, extracting five frequency band power features for each channel within a 1-second time window. The valence label for each time window is defined as the mode of the valence labels within that window.
@@ -33,8 +35,9 @@ In the following section, we will explain how each code was utilized in differen
   - b) Permutation-based p-value of the silhouette score         
   - c) Cortical distinctiveness based on average and medoid distances.         
 
+  ---
   > **NOTE** Running this code takes a significant amount of time. Therefore, it is recommended to use job schedulers like SLURM to run the code in parallel, either by video or by participant.
-
+  ---
 
 - **(05) `cebra_decoding.py`**: This code performs pairwise decoding analysis using data from six participants who reported all four valence labels across three awe conditions. Based on the previously learned 1-9 dimensional CEBRA embeddings, decoding analyses are conducted under the 'across participants' and 'across clips' tasks. For each task, decoding is performed under three conditions: 'random', 'not aligned', and 'aligned'. CCA is used for the aligned condition analysis. For each decoding task, a `.csv` dataframe is saved, containing the train set, test set, dimension, and test performance for each condition.
 - **(06) `pca_decoding.py`**: This code performs a baseline analysis for the CEBRA decoding analysis by conducting pairwise decoding analysis using PCA embeddings in the same manner. The results are saved in a `.csv` dataframe.   
