@@ -39,7 +39,7 @@ In the following section, we will explain how each code was utilized in differen
 - **(08) `dynamask_implement.py`**: This code calls the saved CEBRA models back into Dynamask and trains attribution maps to determine which features and timepoints were most important for the embedding learning process in each participant-video dataset.
 - **(09) `hmm_implement.py`**: This code uses HMM to evaluate how well the latent state transitions of each frequency band feature align with the time-based transitions of the actual keypress valence sequence. A transition is considered a "match" if it occurs within 3 seconds of the actual keypress transition. A permutation test is conducted 1,000 times to calculate the actual match rate and the match rates for each permutation test.
 
-### Part III. Predictive Modeling and Statistical Analysis ###
+### Part III. Predictive Modeling, Statistical Analysis, and Visualization ###
 - **(10) `behavior_analysis.R`**: This code performs the following tasks:
        
    - a) investigates the psychometric validity of self-report data.     
