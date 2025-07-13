@@ -65,10 +65,10 @@ In the following section, we will explain how each code was utilized in differen
   - (Results) section *'The multiple band frequency powers and frontoparietal channels mainly distinguish different affective states during awe'*.
   - (Contents) Fig 6, Supplementary Table 5. 
 
-## Citation
-*(TBD)*
-
 ### Part V. Sensory-Affect Analysis ###
 - **(11) `sensory_affect_analysis_n43.R`**: This script visualizes changes in the audiovisual features of each VR video and tests their association with participants’ affective response patterns. It supports the results reported in the following sections and contents of the manuscript:
 
   - (Contents) Supplementary Fig 1b, Supplementary Table 2.
+
+## Citation
+*(TBD)*
