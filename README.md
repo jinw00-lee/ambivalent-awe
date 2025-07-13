@@ -5,13 +5,15 @@ Seoul National University
 - **Corresponding Author:** Jiook Cha, Ph.D. (connectome@snu.ac.kr | [www.connectomelab.com](https://www.connectomelab.com))
 
 ## Abstract
-Awe is a complex emotion that encompasses conflicting affective feelings inherent to its key appraisals, but it has been studied as either a positive or a negative emotion, which has made its ambivalent nature underexplored. To address whether and how awe's ambivalent affect is represented both behaviorally and neurologically, we conducted a study using virtual reality (VR) and electroencephalography (N = 43). Behaviorally, the subjective ratings of awe intensity for VR clips were best predicted by the duration and intensity of ambivalent feelings, not by single valence-related metrics. In the electrophysiological analysis, we identified a latent neural-feeling space for each participant that shared valence representations across individuals and stimuli, using deep representational learning and decoding analyses. Within these spaces, ambivalent feelings were represented as spatially distinct from positive and negative ones with large individual differences in their separation. Notably, this variability significantly predicted subjective awe ratings. Lastly, hidden Markov modeling revealed that the multiple band powers, particularly in the frontoparietal channels were significantly associated with differentiation of valent states during awe-inducing VR watching. Our findings suggest that awe is better characterized as ambivalent affect that integrates opposing feelings than simply positive and negative ones. This work provides a nuanced framework for understanding the complexity of human emotions with implications for affective neuroscience.
+Awe is a complex emotion that encompasses conflicting affective feelings inherent to its key appraisals, but it has been studied as either a positive or a negative emotion, which has made its ambivalent nature underexplored. To address whether and how awe's ambivalent affect is represented both behaviorally and neurologically, we conducted a study using virtual reality (VR) and electroencephalography (*N* = 43). Behaviorally, the subjective ratings of awe intensity for VR clips were best predicted by the duration and intensity of ambivalent feelings, not by single valence-related metrics. In the electrophysiological analysis, we identified a latent neural-feeling space for each participant that shared valence representations across individuals and stimuli, using deep representational learning and decoding analyses. Within these spaces, ambivalent feelings were represented as spatially distinct from positive and negative ones with large individual differences in their separation. Notably, this variability significantly predicted subjective awe ratings. Lastly, hidden Markov modeling revealed that the multiple band powers, particularly in the frontoparietal channels were significantly associated with differentiation of valent states during awe-inducing VR watching. Our findings suggest that awe is better characterized as ambivalent affect that integrates opposing feelings than simply positive and negative ones. This work provides a nuanced framework for understanding the complexity of human emotions with implications for affective neuroscience.
  
 
 ![AweVR_video_abstract](https://github.com/user-attachments/assets/c122bc4e-7af7-497e-ab87-9682a529ebab)
 
+## Data Availiability  
+Before getting started, please make sure you have downloaded all the dataset required to run the code from our Open Science Framework repository.
 
-## Guided Tour for Scripts   
+## Guided Tour for a Code Structure  
 In general, we utilized two programming languages, Python and R, for the following goal, respectively:
 - **Python**: Feature extraction with CEBRA, PCA, and HMM.
 - **R**: Statistical analysis with extracted features and visulization.   
@@ -62,6 +64,8 @@ In the following section, we will explain how each code was utilized in differen
   - (Results) section *'The multiple band frequency powers and frontoparietal channels mainly distinguish different affective states during awe'*.
   - (Contents) Fig 6, Supplementary Table 5. 
 
+## Citation
+*(TBD)*
 
 ### Part V. Sensory-Affect Analysis ###
 - **(11) `sensory_affect_analysis_n43.R`**: This script visualizes changes in the audiovisual features of each VR video and tests their association with participants’ affective response patterns. It supports the results reported in the following sections and contents of the manuscript:
