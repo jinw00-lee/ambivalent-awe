@@ -11,7 +11,7 @@ Awe is a complex emotion that encompasses conflicting affective feelings inheren
 ![AweVR_video_abstract](https://github.com/user-attachments/assets/c122bc4e-7af7-497e-ab87-9682a529ebab)
 
 ## Data Availiability  
-Before getting started, please make sure you have downloaded all the dataset required to run the code from our Open Science Framework repository.
+Before getting started, please make sure you have downloaded all the dataset required to run the code from our [Open Science Framework (OSF) repository](https://osf.io/g7k6c/?view_only=422edc4349544b599948c95a654416db).
 
 
 ## Guided Tour for a Code Structure  
