@@ -13,6 +13,7 @@ Awe is a complex emotion that encompasses conflicting affective feelings inheren
 ## Data Availiability  
 Before getting started, please make sure you have downloaded all the dataset required to run the code from our Open Science Framework repository.
 
+
 ## Guided Tour for a Code Structure  
 In general, we utilized two programming languages, Python and R, for the following goal, respectively:
 - **Python**: Feature extraction with CEBRA, PCA, and HMM.
