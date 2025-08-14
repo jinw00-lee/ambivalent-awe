@@ -74,12 +74,12 @@ In the following section, we will explain how each code was utilized in differen
 ## Citation
 If you use this repository in your research, please cite the following paper:
 
-Lee, J., Han, D.D., Oh, S.Y. et al. (2025). Awe is characterized as an ambivalent affect in the human behavior and cortex. *Communications Psychology*, 3, 123. https://doi.org/10.1038/s44271-025-00299-2
+Lee, J., Han, D.D., Oh, S.Y., Cha, J. (2025). Awe is characterized as an ambivalent affect in the human behavior and cortex. *Communications Psychology*, 3, 123. https://doi.org/10.1038/s44271-025-00299-2
 
 ```bibtex
 @article{lee2025awe,
   title        = {Awe is characterized as an ambivalent affect in the human behavior and cortex},
-  author       = {Lee, J. and Han, D.D. and Oh, S.Y. and others},
+  author       = {Lee, J. and Han, D.D. and Oh, S.Y. and Cha, J.},
   journal      = {Communications Psychology},
   volume       = {3},
   pages        = {123},
