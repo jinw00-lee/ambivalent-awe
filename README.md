@@ -2,7 +2,7 @@
 **Jinwoo Lee**, Danny Dongyeop Han, Seung-Yeop Oh, & **Jiook Cha**.   
 Seoul National University   
 - **First Author:** Jinwoo Lee, M.S. (adem1997@snu.ac.kr | [jinwoo-lee.com](https://jinwoo-lee.com))   
-- **Corresponding Author:** Jiook Cha, Ph.D. (connectome@snu.ac.kr | [www.connectomelab.com](https://www.connectomelab.com))
+- **Corresponding Author:** Jinwoo Lee, M.S. & Jiook Cha, Ph.D. (connectome@snu.ac.kr | [www.connectomelab.com](https://www.connectomelab.com))
 - **DOI:** [https://doi.org/10.1038/s44271-025-00299-2](https://doi.org/10.1038/s44271-025-00299-2)
 
 ## Abstract
