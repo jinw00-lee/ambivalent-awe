@@ -3,7 +3,7 @@
 Seoul National University   
 - **First Author:** Jinwoo Lee, M.S. (adem1997@snu.ac.kr | [jinwoo-lee.com](https://jinwoo-lee.com))   
 - **Corresponding Author:** Jiook Cha, Ph.D. (connectome@snu.ac.kr | [www.connectomelab.com](https://www.connectomelab.com))
-- **DOI:** (*TBD*; now in press at *Communications Psychology*)
+- **DOI:** [https://doi.org/10.1038/s44271-025-00299-2](https://doi.org/10.1038/s44271-025-00299-2)
 
 ## Abstract
 Awe is a complex emotion that encompasses conflicting affective feelings inherent to its key appraisals, but it has been studied as either a positive or a negative emotion, which has made its ambivalent nature underexplored. To address whether and how awe's ambivalent affect is represented both behaviorally and neurologically, we conducted a study using virtual reality (VR) and electroencephalography (*N* = 43). Behaviorally, the subjective ratings of awe intensity for VR clips were best predicted by the duration and intensity of ambivalent feelings, not by single valence-related metrics. In the electrophysiological analysis, we identified a latent neural-feeling space for each participant that shared valence representations across individuals and stimuli, using deep representational learning and decoding analyses. Within these spaces, ambivalent feelings were represented as spatially distinct from positive and negative ones with large individual differences in their separation. Notably, this variability significantly predicted subjective awe ratings. Lastly, hidden Markov modeling revealed that the multiple band powers, particularly in the frontoparietal channels were significantly associated with differentiation of valent states during awe-inducing VR watching. Our findings suggest that awe is better characterized as ambivalent affect that integrates opposing feelings than simply positive and negative ones. This work provides a nuanced framework for understanding the complexity of human emotions with implications for affective neuroscience.
@@ -72,4 +72,18 @@ In the following section, we will explain how each code was utilized in differen
   - (Contents) Supplementary Fig 1b, Supplementary Table 2.
 
 ## Citation
-*(TBD)*
+If you use this repository in your research, please cite the following paper:
+
+Lee, J., Han, D.D., Oh, S.Y. et al. (2025). Awe is characterized as an ambivalent affect in the human behavior and cortex. *Communications Psychology*, 3, 123. https://doi.org/10.1038/s44271-025-00299-2
+
+```bibtex
+@article{lee2025awe,
+  title        = {Awe is characterized as an ambivalent affect in the human behavior and cortex},
+  author       = {Lee, J. and Han, D.D. and Oh, S.Y. and others},
+  journal      = {Communications Psychology},
+  volume       = {3},
+  pages        = {123},
+  year         = {2025},
+  doi          = {10.1038/s44271-025-00299-2},
+  url          = {https://doi.org/10.1038/s44271-025-00299-2}
+}
